@@ -1,44 +1,70 @@
 <style>
 .Home-button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(14, 188, 219);
+  background-color: rgb(10, 87, 175);
+  color: rgb(243, 243, 241);
   border-color: rgb(0, 0, 0);
   border-width: 1px;
   height: 35px;
   width: 100px;
-  border-radius: 2px;
+  border-radius: 5px;
   cursor: pointer;
   margin-right: 4px;
+  transition: opacity 0.7s, box-shadow 0.15s;
   
 }
 .Home-button:hover {
-  background-color: rgb(236, 234, 234);
+  opacity: 0.8;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 .Home-button:active {
-  background-color: rgb(255, 180, 180);
+  opacity: 0.5;
 }
 .Projects-button:hover {
-  background-color: rgb(236, 234, 234);
+  opacity: 0.8;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 .Projects-button:active {
-  background-color: rgb(255, 180, 180);
+  opacity: 0.5;
 }
 .Projects-button{
-  background-color: rgb(255, 255, 255);
-  color: rgb(14, 188, 219);
+  background-color: rgb(10, 87, 175);
+  color: rgb(243, 243, 241);
   border-color: rgb(0, 0, 0);
   border-width: 1px;
   height: 35px;
   width: 100px;
-  border-radius: 2px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: opacity 0.7s, box-shadow 0.15s;
+}
+.Socials-button{
+  background-color: white;
+  color: rgb(10, 87, 175);
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.7s;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.Socials-button:hover {
+  opacity: 0.8;
+  background-color: rgb(158, 202, 252);
+
+}
+.Socials-button:active {
+  opacity: 0.5;
+  background-color: rgb(39, 101, 172);
+  color: white;
+  transition: opacity 0.3s;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .First-Par {
   margin-top: 2px;
-
-
-
 }
 .Second-Par{
   font-size: small;  
@@ -51,6 +77,9 @@
 </button>
 <button class="Projects-button">
   Projects
+</button>
+<button class="Socials-button">
+  Socials
 </button>
 <p class="First-Par">
   Welcome To my Website.
